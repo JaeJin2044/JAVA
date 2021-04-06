@@ -1,0 +1,47 @@
+package com.java.ex;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ArrayListEx {
+
+	public static void main(String[] args) {
+		// ArrayList
+		// ArrayList는 List 인터페이스를 상속받은 클래스로 크기가 가변적으로 변하는 선형리스트
+		// 일반적인 배열과 같은 순차리스트이다.
+		// 인덱스로 내부의 객체를 관리한다는점등이 유사하지만 한번 생성되면 크기가 변하지 않는 배열과는 달리 ArrayList는 객체들이 추가되어
+		// 저장 용량(capacity)을 초과한다면 자동으로 부족한 크기만큼 저장 용량(capacity)이 늘어난다는 특징을 가지고 있습니다.
+		
+		//ArryList 값 삽입
+		List<Object> list1 = new ArrayList<>();
+		list1.add(1);
+		list1.add(2);
+		list1.add(3);
+		list1.add(0,"김상혁");
+		
+		//ArryList 사이즈 
+		System.out.println("ArrayList Size");
+		System.out.println("list1 의 사이즈 : "+list1.size());
+		System.out.println("===============");
+		
+		//데이터 가져오는 방법 get사용 여기도 인덱스 이용
+        System.out.println(list1.get(0));
+        
+        
+        //데이터 삭제 방법 remove사용
+        list1.remove(2);//인자로 2를 전달하면 인덱스 2의 데이터를 삭제하고 앞으로 한칸씩 댕긴다.
+        //index 2의값을 삭제하기때문에 20을 삭제하고 30과 40은 앞으로 전진
+    
+        
+		
+		
+		
+
+        System.out.println("===================");
+		for(Object str : list1) {
+			System.out.println(str);
+		};
+
+		
+	}
+}
