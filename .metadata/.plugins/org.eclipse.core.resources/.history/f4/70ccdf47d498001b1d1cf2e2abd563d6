@@ -1,0 +1,13 @@
+package com.java.abs;
+
+public abstract class Car {
+	
+	String name = "벤츠";
+	int cc = 5000;
+	
+	abstract void run();
+	private void run1() {
+		System.out.println("ㅇㅇ");
+	}
+	
+}

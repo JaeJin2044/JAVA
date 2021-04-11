@@ -1,0 +1,26 @@
+package com.java.ex;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class SetTest {
+
+	public static void main(String[] args) {
+		
+		Set<String> ex1 = new HashSet<String>();
+		
+		ex1.add("이재진");
+		ex1.add("이순신");
+		ex1.add("김건모");
+		ex1.add("이승철");
+		ex1.add("소녀시대");
+		
+		Iterable<String> iter = ex1;
+		
+		for(String a : ex1) {
+			System.out.println(a);
+		}
+		
+		
+	}
+}

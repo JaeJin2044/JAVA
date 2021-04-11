@@ -1,0 +1,5 @@
+package com.java.abs;
+
+public interface Animal {
+	String a = "이재진";
+}

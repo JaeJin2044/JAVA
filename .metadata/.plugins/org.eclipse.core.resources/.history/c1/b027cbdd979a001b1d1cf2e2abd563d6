@@ -1,0 +1,6 @@
+package com.java.abs;
+
+public interface Animal {
+
+	String name = "이순신";
+}

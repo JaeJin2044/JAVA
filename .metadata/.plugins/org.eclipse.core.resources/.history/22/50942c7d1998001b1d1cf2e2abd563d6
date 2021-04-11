@@ -1,0 +1,15 @@
+package com.java.ex;
+
+import java.util.Map;
+
+public class HashMapTest {
+
+	public static void main(String[] args) {
+		//HashMap 
+		
+		Map<Integer,Object> map = new HashMap<>();
+		
+
+	}
+
+}

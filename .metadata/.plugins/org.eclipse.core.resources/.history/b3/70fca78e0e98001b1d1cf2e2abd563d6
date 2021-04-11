@@ -1,0 +1,19 @@
+package com.java.ex;
+
+public class Ex5 extends Ex4 {
+
+	@Override
+	public int sum(int a, int b) {
+		return 0;
+	}
+
+	@Override
+	void sum1() {
+		System.out.println("안녕하세요");
+		
+	}
+	
+	
+	
+
+}

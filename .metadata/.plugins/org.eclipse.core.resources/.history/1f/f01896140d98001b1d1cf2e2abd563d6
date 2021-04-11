@@ -1,0 +1,15 @@
+package com.java.ex;
+
+abstract class Ex4 {
+	
+	private int a = 10;
+	private String b = "이재진";
+	
+	private int sum(int a, int b ) {
+		
+		return a+b;
+	}
+	
+	
+	
+}

@@ -1,0 +1,8 @@
+package com.java.abs;
+
+public interface Animal {
+	
+	public void run() {
+		System.out.println("아년ㅇ하세요");
+	}
+}

@@ -1,0 +1,23 @@
+package com.java.abs;
+
+public class MainTest {
+	
+	public static void main(String[] args) {
+		Animal dog = new Dog();
+		Animal cat = new Cat();
+		
+		methodRun(dog);
+		
+		
+	}
+	
+	public static void methodRun(Animal ani) {
+		
+		if(ani instanceof Dog){
+			
+		}
+		
+	}
+	
+	
+}

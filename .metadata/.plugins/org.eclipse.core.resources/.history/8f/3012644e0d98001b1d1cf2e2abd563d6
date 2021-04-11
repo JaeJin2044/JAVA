@@ -1,0 +1,23 @@
+package com.java.ex;
+
+abstract class Ex4 {
+	
+	public int a = 10;
+	private String b = "이재진";
+	
+	Ex4(int a){
+		
+	}
+	
+	private int sum(int a, int b ) {
+		
+		return a+b;
+	}
+	abstract String strMethod();
+	
+	
+	
+	
+	
+	
+}

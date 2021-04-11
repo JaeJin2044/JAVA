@@ -1,0 +1,30 @@
+package com.java.ex;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class HashMapTest {
+
+	public static void main(String[] args) {
+		//HashMap 
+		
+		Map<Integer,Object> map = new HashMap<>();
+		
+		map.put(0, "이재진");
+		map.put(1,"김상혁");
+		
+		//값 삭제
+		//map.remove(0);
+		
+		//값 전체 삭제
+		//map.clear();
+		
+		System.out.println(map.get(0));
+		System.out.println(map.get(1));
+		
+		
+		
+
+	}
+
+}
